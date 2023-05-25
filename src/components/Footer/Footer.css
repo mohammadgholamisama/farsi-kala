@@ -1,0 +1,134 @@
+.footer {
+    background-color: #EEEEEE;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.footer-header-right-top-img img {
+    width: 140px;
+    height: 55px;
+}
+
+.footer-header-right-top p {
+    font-size: 15px;
+    color: #535353;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.go-to-up-site {
+    border: 2px solid #979797b9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #414141;
+    transition: 0.2s;
+}
+
+.go-to-up-site:hover {
+    background-color: #ffffffa4;
+}
+
+.footer-icons-ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.footer-icons-ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons-ul li img {
+    width: 75px;
+    height: 65px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-icons-ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-icons-ul li {
+        margin-bottom: 25px;
+    }
+
+    .footer-icons-ul li:first-child {
+        grid-column: 1/ -1;
+    }
+}
+
+
+/* Footer Lists */
+
+.footer-lists {
+    padding: 20px 0;
+}
+
+.footer-list-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-list-ul li {
+    margin-top: 7px;
+}
+
+.footer-list-link {
+    text-decoration: none;
+    color: #535353;
+    font-size: 16px;
+}
+
+.footer-list-sosial-icon {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.footer-list-sosial-icon:hover {
+    transform: scale(1.2);
+}
+
+.footer-list-box-sosial a:nth-child(1) .footer-list-sosial-icon {
+    color: #0053a0;
+}
+
+.footer-list-box-sosial a:nth-child(2) .footer-list-sosial-icon {
+    color: #0c8aff;
+}
+
+.footer-list-box-sosial a:nth-child(3) .footer-list-sosial-icon {
+    color: #c70074;
+}
+
+.footer-list-box-sosial a:nth-child(4) .footer-list-sosial-icon {
+    color: #0c8aff;
+}
+
+.footer-list-box-sosial a:nth-child(5) .footer-list-sosial-icon {
+    color: #18c202;
+}
+
+/* Footer CopyRight */
+.footer-copyright-text {
+    color: #535353;
+}
+
+.footer-copyright-programmer {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #818181;
+}
+
+.footer-copyright-programmer a {
+    text-decoration: none;
+    color: #017fb1;
+}

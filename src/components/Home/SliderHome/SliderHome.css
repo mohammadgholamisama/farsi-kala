@@ -1,0 +1,24 @@
+.home-slide-banner {
+    cursor: pointer;
+    z-index: 0;
+    user-select: none;
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-rtl .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    color: #ffff;
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: var(--main-color);
+}

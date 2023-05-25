@@ -1,0 +1,16 @@
+@font-face {
+    font-family: yekan;
+    src: url(font/Yekan.ttf);
+}
+
+body {
+    font-family: yekan;
+}
+
+:root {
+    --main-color: #e74157;
+}
+
+::selection {
+    background-color: #e741575d;
+}

@@ -1,0 +1,147 @@
+.amazing-offer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-color);
+    border-radius: 12px;
+    padding: 25px 15px;
+}
+
+.amazing-offer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.amazing-offer-right img {
+    width: 120px;
+    height: 100%;
+}
+
+.amazing-offer-right a {
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 0;
+}
+
+/* swiper */
+.amazing-slide-item {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.amazing-slide-item img {
+    width: 176px;
+    height: 176px;
+}
+
+.amazing-slide-item-link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.amazing-slide-item-link p {
+    margin: 10px 0;
+    color: #383838d8;
+    font-size: 15px;
+}
+
+.amazing-slide-item-link span {
+    margin-top: 10px;
+    color: #000000d8;
+}
+
+.amazing-slide-item-link span::after {
+    content: 'تومان';
+    margin-right: 5px;
+}
+
+.amazing-slide-item-link:hover .amazing-slide-item-info {
+    transition: 0.3s;
+    transform: translateY(-40px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.amazing-slide-item-info-btn {
+    transform: translateY(40px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.amazing-slide-item-info-btn span {
+    color: var(--main-color);
+    padding: 7px;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.amazing-slide-item-link:hover .amazing-slide-item-info-btn {
+    transition: 0.3s;
+    transform: translateY(-40px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.amazing-offer .swiper-rtl .swiper-button-next:after,
+.amazing-offer .swiper-rtl .swiper-button-prev:after {
+    color: #000;
+    background-color: white;
+    font-size: 13px;
+    border-radius: 50%;
+    border: 1px solid #c0c0c065;
+    box-shadow: 0 0 2px 1px rgba(187, 187, 187, 0.185);
+    padding: 8px 12px;
+}
+
+/* amazing-offer-banner */
+
+.amazing-offer-banner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 10px;
+    border-radius: 15px;
+    background: url(../../../../public/images/amazing-offer/home-amazing-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.amazing-offer-banner-icon {
+    color: #2dc96b;
+    font-size: 45px;
+}
+
+.amazing-offer-banner-text {
+    color: #2dc96b;
+    font-size: 25px;
+}
+
+.amazing-offer-banner-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.amazing-offer-banner-btn button {
+    background-color: #fff;
+    color: #2dc96b;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 25px;
+    box-shadow: 0 0 4px 1px rgba(148, 148, 148, 0.514);
+    transition: 0.3s;
+}
+
+.amazing-offer-banner-btn button:hover {
+    box-shadow: 0 0 4px 1px rgba(105, 105, 105, 0.952);
+}
+
+.amazing-offer-banner-btn-icon {
+    margin-right: 25px;
+    font-size: 20px;
+}

@@ -1,0 +1,74 @@
+.product-info {
+    margin: 45px 0;
+}
+
+.product-feature-title {
+    font-size: 23px;
+    color: #414141;
+    margin-bottom: 15px;
+}
+
+.product-feature-table {
+    width: 100%;
+}
+
+.product-feature-table tr:nth-child(odd) {
+    background-color: #F5F5F5;
+}
+
+.product-feature-table tr:nth-child(even) {
+    background-color: #dbdbdb;
+}
+
+.product-feature-table tr {
+    border: 1px solid #b6b6b6;
+}
+
+.product-feature-table tr th {
+    padding: 10px;
+    width: 30%;
+    border: 1px solid #b6b6b6;
+    padding-right: 10px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.product-feature-table tr td {
+    padding-right: 20px;
+    color: #414141;
+    font-size: 15px;
+}
+
+.product-info-text {
+    line-height: 25px;
+    text-align: justify;
+    font-size: 14.5px;
+    color: #0c0c0cc7;
+}
+
+
+/* advantages-site */
+
+.advantages-site {
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 17px;
+    background-color: #F5F5F5;
+    margin-top: 30px;
+}
+
+.advantages-site-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.advantages-site ul li {
+    margin: 20px 0;
+    color: #585858;
+}
+
+.advantages-site-icon {
+    color: #000;
+    margin-left: 10px;
+}

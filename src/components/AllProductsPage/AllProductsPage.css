@@ -1,0 +1,118 @@
+.products-filter-box {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.products-filter-icon {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.products-filter-icon-title {
+    font-size: 16px;
+    color: #000;
+}
+
+.products-filter-ul li {
+    margin-right: 10px;
+    font-size: 15px;
+    color: #6b6b6b;
+    cursor: pointer;
+}
+
+.products-filter-ul li.active-filter {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 450px) {
+    .products-filter-icon {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .products-filter-icon-title {
+        font-size: 14px;
+    }
+
+    .products-filter-ul li {
+        font-size: 13px;
+        margin-right: 5px;
+    }
+}
+
+/* product box */
+
+.product-page-box {
+    border: 1px solid #f0eeee;
+    text-decoration: none;
+    padding: 10px 0 !important;
+    transition: 0.2s ease;
+    background-color: #fff;
+}
+
+.product-page-box:hover {
+    z-index: 10;
+    box-shadow: 0 0 4px 1px rgba(129, 129, 129, 0.466);
+    transform: scale(1.02);
+}
+
+.product-page-box-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.product-page-box-info-title {
+    font-size: 15px;
+    color: #3f3f3f;
+    line-height: 25px;
+}
+
+.product-page-box-info-star {
+    text-align: end;
+    color: #3f3f3f;
+}
+
+.product-page-box-info-star-icon {
+    margin-bottom: 3px;
+    margin-right: 5px;
+    color: #F9BC00;
+}
+
+.product-page-box-info-price {
+    color: #3f3f3f;
+    font-weight: bold;
+    text-align: end;
+}
+
+.product-page-box-info-price::after {
+    content: 'تومان';
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.product-page-box-info-oldprice {
+    text-align: end;
+    margin-top: 20px;
+    color: #f712129f;
+    font-size: 13px;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.product-page-box-info-oldprice::after {
+    content: 'تومان';
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 575px) {
+    .product-page-box {
+        margin: 20px auto;
+        box-shadow: 0 0 3px 2px rgba(94, 94, 94, 0.473);
+        border-radius: 10px;
+    }
+}

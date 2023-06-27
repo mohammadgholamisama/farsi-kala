@@ -104,7 +104,7 @@ export default function TopBar() {
                             <img src="/images/banner.png" className='topbar-branding-img' alt='banner' />
                         </Link>
                         <div className="topbar-searching d-none d-lg-flex">
-                            <input type="text" placeholder='جتسجو ...' />
+                            <input type="text" placeholder='جستجو ...' />
                         </div>
                     </div>
                     <div className="topbar-left">
